@@ -40,3 +40,51 @@ body{
 	display: block;
 	width: 4rem;
 }
+
+.pencil-tool-cont{
+    background-color: #f1f2f6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 5rem;
+    width: 7rem;
+    position: absolute;
+    top: 7rem;
+    left: 25vw;
+    border-radius: 3px;
+    display: none;
+}
+
+.pencil-width-cont{
+	background-color: orange;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pencil-width-cont input{
+	width: 80%;
+}
+
+.pencil-color-cont{
+	background-color: yellow;
+	height: calc(100%-2rem);
+	display: flex;
+ 	justify-content: center;
+        align-items: center;
+        gap: 1rem;
+}
+
+.pencil-color {
+    width: 1.5rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.black {
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
