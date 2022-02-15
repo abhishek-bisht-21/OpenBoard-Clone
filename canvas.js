@@ -35,7 +35,9 @@ canvas.addEventListener("mousemove", (e) => {
 	if(mousedown){
 		drawStroke({
 			x:e.clientX,
-			y:e.clientY
+			y:e.clientY,
+			color: eraserColor? eraserColor:penColor,
+			width: eraserFlag ? eraserWidth : penWidth
 		})
 	}
 	
@@ -46,6 +48,8 @@ canvas.addEventListener("mouseup",(e) => {
 })
 
 function beginPath(strokeObj){
+	tool.strokeStyle = strokeObj.color;
+	tool.lineWidth = strokeObj.width;
 	tool.beginPath();
 	tool.moveTo(strokeObj.x,strokeObj.y);
 }
