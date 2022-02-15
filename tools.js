@@ -2,6 +2,8 @@ let optionsCont = document.querySelector(".options-cont");
 let toolsCont = document.querySelector(".tools-cont");
 let pencilToolCont = document.querySelector(".pencil-tool-cont");
 let eraserToolCont = document.querySelector(".eraser-tool-cont");
+let pencil = document.querySelector(".pencil");
+let eraser = document.querySelector(".eraser");
 
 let pencilFlag = false;
 let eraserFlag = false;
