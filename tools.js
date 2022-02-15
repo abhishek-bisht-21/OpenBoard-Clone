@@ -3,6 +3,8 @@ let toolsCont = document.querySelector(".tools-cont");
 let pencilToolCont = document.querySelector(".pencil-tool-cont");
 let eraserToolCont = document.querySelector(".eraser-tool-cont");
 
+let pencilFlag = false;
+let eraserFlag = false;
 let optionsFlag = true;
 
 // true-> tools show, false -> hide tools
@@ -32,8 +34,24 @@ function closeTools(){
 	iconElem.classList.remove("fa-bars");
 	iconElem.classList.add("fa-times");
 	toolsCont.style.display = "none";
-	
+
 	pencilToolCont.style.display = "none";
 	eraserToolCont.style.display = "none"; 
  
 }
+
+pencil.addEventListener("click", (e) => {
+    // true -> show pencil tool, false -> hide pencil tool
+    pencilFlag = !pencilFlag;
+
+    if (pencilFlag) pencilToolCont.style.display = "block";
+    else pencilToolCont.style.display = "none";
+})
+
+eraser.addEventListener("click", (e) => {
+    // true -> show eraser tool, false -> hide eraser tool
+    eraserFlag = !eraserFlag;
+
+    if (eraserFlag) eraserToolCont.style.display = "flex";
+    else eraserToolCont.style.display = "none";
+})
