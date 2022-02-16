@@ -54,5 +54,18 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+Home Page for Application.
+
+![Screenshot (274)](https://user-images.githubusercontent.com/67583012/154247550-a61bc90c-1463-45ca-8f8e-6d4e85a08ee6.png)
+
+
+Add Sticky Note Feature
+
+![Screenshot (275)](https://user-images.githubusercontent.com/67583012/154247297-7afc0ec5-33bd-4b5e-8dc0-014167baa3b2.png)
+
+
+Add Images Feature
+
+![Screenshot (276)](https://user-images.githubusercontent.com/67583012/154248011-66997211-44f5-4073-8699-392bc56b603a.png)
+
 
